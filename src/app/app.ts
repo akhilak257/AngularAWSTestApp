@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+//import { UserForm } from './user-form/user-form';
+import { UserFormRx } from "./user-form-rx/user-form-rx";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [ UserFormRx ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
